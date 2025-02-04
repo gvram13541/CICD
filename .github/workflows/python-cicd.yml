@@ -42,9 +42,7 @@ jobs:
       - name: Simulate deployment
         run: |
           echo "Deployment started..."
-          # In a real CD setup, you could push to a server or cloud platform
           echo "Deploying the add function..."
-          # For simplicity, we just simulate deployment by copying files
           mkdir deployed
           cp main.py deployed/
           echo "Deployed main.py to deployed folder."
