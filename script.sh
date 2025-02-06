@@ -1,5 +1,7 @@
 #!/bin/sh
 
+echo "Hello, World!"
+
 git checkout -b new_branch
 git add .
 git commit -m "new commit"
