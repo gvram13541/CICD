@@ -1,0 +1,2 @@
+learning to make pull request without github's web interface
+should make use of github cli (gh) or should make curl request to github api
